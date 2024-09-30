@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* header-start */
+
+.header_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    align-items: center;
+    background: #2B3844;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    height: 80px;
+}
+
+.header_nav .header_h2 {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header_nav .header_h4 {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* header end */
+
+/* main started */
+
+main {
+    background: #202C36;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.the-search {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 30px;
+    flex-wrap: wrap;
+    transform: translateY(50px);
+}
+
+.input_search {
+    width: 480px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #2B3844;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+
+}
+/* 
+.section-flag {
+    padding: 0 30px 0 30px;
+    transform: translateY(100px);
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.section-flag img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.flag-background {
+ 
+    /* margin-right: 50px; */
+    margin-top: 100px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.country-card {
+    max-width: 266px;
+    width: 100%;
+    height: 380px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #2B3844;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+}
+
+.flag-texts {
+    padding: 10px;
+}
+
+.flag-texts .the-title {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+}
+
+.flag-texts .population {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.flag-texts .region {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.flag-texts .capital {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+/* .after1::after {
+    content: ' 81,770,900';
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+} */
+
+/* .after2::after {
+    content: ' Europe';
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+} */
+
+/* .after3::after {
+    content: ' Berlin';
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+} */
+
+/* another ::after */
+
+/* .after4::after {
+    content: ' 323,947,000';
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+} */
+
+/* .after5::after {
+    content: ' Americas';
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+} */
+
+/* .after6::after {
+    content: ' Washington, D.C.';
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+} */
+
+/* .after7::after {
+    content: ' 206,135,893';
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+} */
+
+/* .after8::after {
+    content: ' Americas';
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+} */
+
+/* .after9::after {
+    content: ' Brasília';
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+} */
+
+/* .after10::after {
+    content: ' 334,300';
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+} */
+
+/* .after11::after {
+    content: ' Europe';
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+} */
+
+/* .after12::after {
+    content: ' Reykjavík';
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+} */
+
+/* main end */
